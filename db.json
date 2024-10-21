@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "bf9c",
+      "title": "A Game of Thrones",
+      "description": "<p>King in the <strong><em>North</em></strong></p>",
+      "date": "2024-10-21T06:00:12.590Z",
+      "tags": ["A song of ice and fire", "Novel"]
+    },
+    {
+      "id": "3b3b",
+      "title": "The Dance of the Dragon",
+      "description": "<p><strong>Aemond</strong> vs <em>Daemon</em></p>",
+      "date": "2024-10-21T06:11:08.758Z",
+      "tags": ["Novel"]
+    },
+    {
+      "id": "5577",
+      "title": "WWE",
+      "description": "<p><strong>HIAC</strong> - Punk VS Drew</p>",
+      "date": "2024-10-21T06:12:11.030Z",
+      "tags": ["Wrestling"]
+    }
+  ]
+}

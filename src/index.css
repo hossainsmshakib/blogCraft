@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+    @apply bg-white text-black;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white;
+  }
+
+  .input-primary {
+    @apply w-full px-3 py-2 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black;
+  }
+
+  .ql-container {
+    @apply border-0 !important;
+    height: calc(400px - 42px) !important;
+  }
+
+  .ql-toolbar {
+    @apply border-0 border-b !important;
+  }
+
+  .ql-editor {
+    @apply min-h-[200px] text-gray-800 text-base !important;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .ql-editor.ql-blank::before {
+    @apply text-gray-400 !important;
+  }
+
+  .ql-snow .ql-stroke {
+    @apply stroke-gray-600 !important;
+  }
+
+  .ql-snow .ql-fill {
+    @apply fill-gray-600 !important;
+  }
+
+  .ql-snow .ql-picker {
+    @apply text-gray-600 !important;
+  }
+
+  .ql-snow .ql-picker-options {
+    @apply bg-white border border-gray-200 !important;
+  }
+}
